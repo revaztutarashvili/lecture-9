@@ -1,3 +1,13 @@
+@media (max-width: 1024px) {
+.s-2-wrapper {
+ width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}  
+
+
 @media (max-width: 600px) {
     body {
       background-color: aqua;
@@ -14,6 +24,10 @@
     .title {
       font-size: 20px;
     }
+
+    .s-2-wrapper {
+      width: 50%;
+    }
   }
   
 
@@ -22,7 +36,7 @@
       background-color: aqua;
       font-size: 30px;
      
-      
+       
     } 
     
     .wrapper {

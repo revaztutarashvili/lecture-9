@@ -9,6 +9,7 @@ body {
 background-color: red;
 margin: 0 auto;
 text-align: center;
+margin-bottom: 50px;
 /*display: flex;*/
 }
 
@@ -32,3 +33,15 @@ justify-content: space-between;
   width: 300px;
   background-color: rgb(165, 194, 0);
 }
+
+.s-2 {
+
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+}
+
+.s-2-wrapper img {
+  width: 245px;
+  
+} 
