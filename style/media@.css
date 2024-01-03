@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    body {
+      background-color: aqua;
+      font-size: 30px;
+      margin: 0,20%;
+      
+    }
+    
+    .right, .left {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .title {
+      font-size: 20px;
+    }
+  }
+  
+
+  @media (max-width: 280px) {
+    body {
+      background-color: aqua;
+      font-size: 30px;
+     
+      
+    } 
+    
+    .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .right, .left {
+      width: 150px;
+      height: 150px;
+    }
+    
+    .left{
+      margin-bottom: 20px;
+    }
+    .title {
+      font-size: 10px;
+    }
+
+  }
+  
